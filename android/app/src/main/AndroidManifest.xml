@@ -1,0 +1,54 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.F1M2ST.soexample">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+      android:name=".MainApplication"
+      android:networkSecurityConfig="@xml/network_security_config"
+      android:label="@string/app_name"
+      android:icon="@mipmap/ic_launcher"
+      android:roundIcon="@mipmap/ic_launcher_round"
+      android:allowBackup="false"
+      android:requestLegacyExternalStorage="true"
+      android:usesCleartextTraffic="true"
+      android:theme="@style/AppTheme">
+      <activity
+        android:name=".MainActivity"
+        android:label="@string/app_name"
+        android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+        android:launchMode="singleTask"
+        android:windowSoftInputMode="adjustResize"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+      </activity>
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="6391a5e738f644547e2cfb30" >
+        </meta-data>
+
+
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="a5948b3eb2b256620a49eb320f46e510">
+        </meta-data>
+
+    </application>
+
+    <!--    友盟推送权限-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--    友盟推送权限-->
+
+    <!--    指纹权限-->
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+
+</manifest>

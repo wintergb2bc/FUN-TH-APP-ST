@@ -1,0 +1,7 @@
+#Mon Jan 09 17:37:55 CST 2023
+base.1=/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/build/intermediates/dex/release/minifyReleaseWithR8/classes2.dex
+path.1=classes2.dex
+base.0=/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

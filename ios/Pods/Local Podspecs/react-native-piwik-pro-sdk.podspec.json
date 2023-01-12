@@ -1,0 +1,28 @@
+{
+  "name": "react-native-piwik-pro-sdk",
+  "version": "1.0.1",
+  "summary": "Piwik Pro SDK for React Native",
+  "homepage": "https://github.com/PiwikPRO/react-native-piwik-pro-sdk#readme",
+  "license": "MIT",
+  "authors": {
+    "name": "Piwik PRO",
+    "email": "example@mail.com",
+    "url": "https://www.piwik.pro"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com.git",
+    "tag": "1.0.1"
+  },
+  "source_files": "ios/**/*.{h,m,mm}",
+  "dependencies": {
+    "React-Core": [
+
+    ],
+    "PiwikPROSDK": [
+      "~> 1.1.3"
+    ]
+  }
+}

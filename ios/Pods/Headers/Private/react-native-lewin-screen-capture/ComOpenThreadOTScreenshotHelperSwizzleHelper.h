@@ -1,0 +1,1 @@
+../../../../../node_modules/react-native-lewin-screen-capture/ios/ScreenCapture/ComOpenThreadOTScreenshotHelperSwizzleHelper.h

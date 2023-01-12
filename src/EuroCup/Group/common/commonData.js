@@ -1,0 +1,275 @@
+const image = '../../../images/euroSoprt/euroCup/'
+
+export const Round = {
+  "Group": '小组赛A',
+  "round_of_16": '小组赛A',
+  "quarterfinal": '小组赛A',
+  "semifinal": '小组赛A',
+  "final": '小组赛A',
+  "eliminated": '小组赛A',
+}
+
+export const shareIcon = {
+  white: require(`${image}/iconShareWhite.png`),
+  blue: require(`${image}/iconShareBlue.png`)
+}
+export const countryData = {
+  Austria: {
+    flag: require(`${image}flag/Austria.png`),
+    jersey: require(`${image}jersey/Austria.png`),
+    bgColor: '#DA3339',
+    txtColor: '#fff',
+  },
+  Belgium: {
+    flag: require(`${image}flag/Belgium.png`),
+    jersey: require(`${image}jersey/Belgium.png`),
+    bgColor: '#C4272D',
+    txtColor: '#fff',
+  },
+  Croatia: {
+    flag: require(`${image}flag/Croatia.png`),
+    jersey: require(`${image}jersey/Croatia.png`),
+    bgColor: '#C32128',
+    txtColor: '#fff',
+  },
+  'Czech-Republic': {
+    flag: require(`${image}flag/Czech.png`),
+    jersey: require(`${image}jersey/Czech.png`),
+    bgColor: '#C82C31',
+    txtColor: '#fff',
+  },
+  Denmark: {
+    flag: require(`${image}flag/Denmark.png`),
+    jersey: require(`${image}jersey/Denmark.png`),
+    bgColor: '#7C0A20',
+    txtColor: '#fff',
+  },
+  England: {
+    flag: require(`${image}flag/England.png`),
+    jersey: require(`${image}jersey/England.png`),
+    bgColor: '#C31327',
+    txtColor: '#fff',
+  },
+  Finland: {
+    flag: require(`${image}flag/Finland.png`),
+    jersey: require(`${image}jersey/Finland.png`),
+    bgColor: '#1C4C92',
+    txtColor: '#fff',
+  },
+  'France': {
+    flag: require(`${image}flag/France.png`),
+    jersey: require(`${image}jersey/France.png`),
+    bgColor: '#08295B',
+    txtColor: '#fff',
+  },
+  Germany: {
+    flag: require(`${image}flag/Germany.png`),
+    jersey: require(`${image}jersey/Germany.png`),
+    bgColor: '#909090',
+    txtColor: '#fff',
+  },
+  Hungary: {
+    flag: require(`${image}flag/Hungary.png`),
+    jersey: require(`${image}jersey/Hungary.png`),
+    bgColor: '#BF262C',
+    txtColor: '#fff',
+  },
+  Italy: {
+    flag: require(`${image}flag/Italy.png`),
+    jersey: require(`${image}jersey/Italy.png`),
+    bgColor: '#1853B7',
+    txtColor: '#fff',
+  },
+  Netherlands: {
+    flag: require(`${image}flag/Netherlands.png`),
+    jersey: require(`${image}jersey/Netherlands.png`),
+    bgColor: '#EC7A11',
+    txtColor: '#fff',
+  },
+  'North-Macedonia': {
+    flag: require(`${image}flag/NorthMacedonia.png`),
+    jersey: require(`${image}jersey/NorthMacedonia.png`),
+    bgColor: '#C6353A',
+    txtColor: '#fff',
+  },
+  Poland: {
+    flag: require(`${image}flag/Poland.png`),
+    jersey: require(`${image}jersey/Poland.png`),
+    bgColor: '#CA3439',
+    txtColor: '#fff',
+  },
+  Portugal: {
+    flag: require(`${image}flag/Portugal.png`),
+    jersey: require(`${image}jersey/Portugal.png`),
+    bgColor: '#A42529',
+    txtColor: '#fff',
+  },
+  Russia: {
+    flag: require(`${image}flag/Russia.png`),
+    jersey: require(`${image}jersey/Russia.png`),
+    bgColor: '#C8262C',
+    txtColor: '#fff',
+  },
+  Scotland: {
+    flag: require(`${image}flag/Scotland.png`),
+    jersey: require(`${image}jersey/Scotland.png`),
+    bgColor: '#00265D',
+    txtColor: '#fff',
+  },
+  'Slovakia': {
+    flag: require(`${image}flag/Slovakia.png`),
+    jersey: require(`${image}jersey/Slovakia.png`),
+    bgColor: '#005AAB',
+    txtColor: '#fff',
+  },
+  Spain: {
+    flag: require(`${image}flag/Spain.png`),
+    jersey: require(`${image}jersey/Spain.png`),
+    bgColor: '#A9151A',
+    txtColor: '#fff',
+  },
+  Sweden: {
+    flag: require(`${image}flag/Sweden.png`),
+    jersey: require(`${image}jersey/Sweden.png`),
+    bgColor: '#FFD503',
+    txtColor: '#000',
+  },
+  Switzerland: {
+    flag: require(`${image}flag/Switzerland.png`),
+    jersey: require(`${image}jersey/Switzerland.png`),
+    bgColor: '#BF2C31',
+    txtColor: '#fff',
+  },
+  Turkey: {
+    flag: require(`${image}flag/Turkey.png`),
+    jersey: require(`${image}jersey/Turkey.png`),
+    bgColor: '#CB2329',
+    txtColor: '#fff',
+  },
+  Ukraine: {
+    flag: require(`${image}flag/Ukraine.png`),
+    jersey: require(`${image}jersey/Ukraine.png`),
+    bgColor: '#F7D600',
+    txtColor: '#000',
+  },
+  Wales: {
+    flag: require(`${image}flag/Wales.png`),
+    jersey: require(`${image}jersey/Wales.png`),
+    bgColor: '#C3253A',
+    txtColor: '#fff',
+  },
+  'Ireland': {
+    flag: require(`${image}flag/France.png`),
+    jersey: require(`${image}jersey/France.png`),
+    bgColor: '#EC7A11',
+    txtColor: '#fff',
+  },
+}
+
+export const RoundName = {
+  "Group A": '小组赛 A',
+  "Group B": '小组赛 B',
+  "Group C": '小组赛 C',
+  "Group D": '小组赛 D',
+  "Group E": '小组赛 E',
+  "Group F": '小组赛 F',
+  "Group A eliminated": '小组赛 A 淘汰',
+  "Group B eliminated": '小组赛 B 淘汰',
+  "Group C eliminated": '小组赛 C 淘汰',
+  "Group D eliminated": '小组赛 D 淘汰',
+  "Group E eliminated": '小组赛 E 淘汰',
+  "Group F eliminated": '小组赛 F 淘汰',
+  "round_of_16": '16强',
+  "round_of_16 eliminated": '16强 淘汰',
+  "quarterfinal": '四分之一决赛',
+  "quarterfinal eliminated": '四分之一决赛 淘汰',
+  "semifinal": '半决赛',
+  "semifinal eliminated": '半决赛 淘汰',
+  "final": '决赛',
+  "final eliminated": '决赛 淘汰',
+  "Runner-up": '亚军',
+  "champion": '冠军',
+}
+//歐洲杯隊伍UI相關配置
+
+export const euro2021Teams = [
+  {key: 'Turkey' , note:' กำลังโหลด', group: 'A' },
+  {key: 'Italy' , note:' กำลังโหลด', group: 'A' },
+  {key: 'Wales' , note:' กำลังโหลด', group: 'A' },
+  {key: 'Switzerland' , note:' กำลังโหลด', group: 'A' },
+  {key: 'Denmark' , note:' กำลังโหลด', group: 'B' },
+  {key: 'Finland' , note:' กำลังโหลด', group: 'B' },
+  {key: 'Belgium' , note:' กำลังโหลด', group: 'B' },
+  {key: 'Russia' , note:' กำลังโหลด', group: 'B' },
+  {key: 'Netherlands' , note:' กำลังโหลด', group: 'C' },
+  {key: 'Ukraine' , note:' กำลังโหลด', group: 'C' },
+  {key: 'Austria' , note:' กำลังโหลด', group: 'C' },
+  {key: 'North-Macedonia' , note:' กำลังโหลด', group: 'C' },
+  {key: 'England' , note:' กำลังโหลด', group: 'D' },
+  {key: 'Croatia' , note:' กำลังโหลด', group: 'D' },
+  {key: 'Scotland' , note:' กำลังโหลด', group: 'D' },
+  {key: 'Czech-Republic' , note:' กำลังโหลด', group: 'D' },
+  {key: 'Spain' , note:' กำลังโหลด', group: 'E' },
+  {key: 'Sweden' , note:' กำลังโหลด', group: 'E' },
+  {key: 'Poland' , note:' กำลังโหลด', group: 'E' },
+  {key: 'Slovakia' , note:' กำลังโหลด', group: 'E' },
+  {key: 'Hungary' , note:' กำลังโหลด', group: 'F' },
+  {key: 'Portugal' , note:' กำลังโหลด', group: 'F' },
+  {key: 'France' , note:' กำลังโหลด', group: 'F' },
+  {key: 'Germany' , note:' กำลังโหลด', group: 'F' },
+]
+
+//隊伍狀態名 和排序
+export const latestRoundMap = {
+  'final': { name:'Chung kết', sortId: 99},
+  'semifinal': { name:'Bán kết ', sortId: 90},
+  'quarterfinal': { name:'Tứ kết', sortId: 80},
+  'round_of_16': { name:'Vòng 16 ', sortId: 70},
+  'Group A': { name:'Bảng A', sortId: 65},
+  'Group B': { name:'Bảng B', sortId: 64},
+  'Group C': { name:'Bảng C', sortId: 63},
+  'Group D': { name:'Bảng D', sortId: 62},
+  'Group E': { name:'Bảng E', sortId: 61},
+  'Group F': { name:'Bảng F', sortId: 60},
+  'eliminated': { name:'Loại', sortId: 0, isout: true},
+  'final eliminated': { name:'Chung kết Loại', sortId: 0, isout: true},
+  'semifinal eliminated': { name:'Bán kết Loại', sortId: 0, isout: true},
+  'quarterfinal eliminated': { name:'Tứ kết Loại', sortId: 0, isout: true},
+  'round_of_16 eliminated': { name:'Vòng 16 Loại', sortId: 0, isout: true},
+  'Group A eliminated': { name:'Bảng A Loại', sortId: 0, isout: true},
+  'Group B eliminated': { name:'Bảng B Loại', sortId: 0, isout: true},
+  'Group C eliminated': { name:'Bảng C Loại', sortId: 0, isout: true},
+  'Group D eliminated': { name:'Bảng D Loại', sortId: 0, isout: true},
+  'Group E eliminated': { name:'Bảng E Loại', sortId: 0, isout: true},
+  'Group F eliminated': { name:'Bảng F Loại', sortId: 0, isout: true},
+}
+
+//位置分類 1前鋒 2中場 3後衛 4守門員
+export const positionToTypeMap = {
+  'central_defender': 3, //'中后卫',
+  'central_midfielder': 2, //'中场',
+  'defender': 3, //'后卫',
+  'forward': 1, //'前锋',
+  'goalkeeper': 4, //'守门员',
+  'left_back': 3, //'左后卫',
+  'left_winger': 2, //'左翼',
+  'midfielder': 2, //'中场',
+  'right_back':3, //'右后卫',
+  'right_winger': 2, //'右翼',
+  'striker':1, //'前锋',
+}
+
+//位置 轉越南
+export const positionMap = {
+  'central_defender': 'Trung Vệ',
+  'central_midfielder': 'Tiền Vệ Trung Tâm',
+  'defender':'Hậu Vệ',
+  'forward':'Tiền Đạo',
+  'goalkeeper':'Thủ Môn',
+  'left_back':'Hậu Vệ Cánh Trái',
+  'left_winger':'Tiền Vệ Cánh Trái',
+  'midfielder':'Tiền Vệ',
+  'right_back':'Hậu Vệ Cánh Phải',
+  'right_winger':'Tiền Vệ Cánh Phải',
+  'striker':'Tiền Đạo',
+}

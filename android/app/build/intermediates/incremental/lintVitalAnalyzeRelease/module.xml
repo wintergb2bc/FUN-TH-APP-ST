@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app"
+    name=":app"
+    type="APP"
+    maven="FedevProject:app:"
+    gradle="7.0.4"
+    buildFolder="build"
+    bootClassPath="/Users/luguibin/Library/Android/sdk/platforms/android-31/android.jar:/Users/luguibin/Library/Android/sdk/build-tools/30.0.2/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-31">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

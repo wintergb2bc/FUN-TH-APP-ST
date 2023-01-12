@@ -1,0 +1,554 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.F1M2ST.soexample"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:4:22-64
+12
+13    <!-- 友盟推送权限 -->
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:43:5-79
+14-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:43:22-76
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:44:5-76
+15-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:44:22-73
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:45:5-75
+16-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:45:22-72
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:46:5-81
+17-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:46:22-78
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:47:5-80
+18-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:47:22-77
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:4:5-67
+19-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:4:22-64
+20    <!-- 友盟推送权限 -->
+21
+22
+23    <!-- 指纹权限 -->
+24    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+24-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:52:5-72
+24-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:52:22-69
+25    <uses-permission android:name="android.permission.WAKE_LOCK" />
+25-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:13:5-68
+25-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:13:22-65
+26    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+26-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:15:5-81
+26-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:15:22-78
+27    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+27-->[:react-native-fingerprint-scanner] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-fingerprint-scanner/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-74
+27-->[:react-native-fingerprint-scanner] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-fingerprint-scanner/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-71
+28    <uses-permission android:name="com.fingerprints.service.ACCESS_FINGERPRINT_MANAGER" />
+28-->[:react-native-fingerprint-scanner] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-fingerprint-scanner/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-91
+28-->[:react-native-fingerprint-scanner] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-fingerprint-scanner/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-88
+29    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+29-->[:react-native-fingerprint-scanner] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-fingerprint-scanner/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-117
+29-->[:react-native-fingerprint-scanner] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-fingerprint-scanner/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:22-114
+30    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+30-->[:eagleeyes-release-1.7:] /Users/luguibin/.gradle/caches/transforms-3/4b5f702c2c16414e4e015a141b2f15f4/transformed/jetified-eagleeyes-release-1.7/AndroidManifest.xml:10:5-81
+30-->[:eagleeyes-release-1.7:] /Users/luguibin/.gradle/caches/transforms-3/4b5f702c2c16414e4e015a141b2f15f4/transformed/jetified-eagleeyes-release-1.7/AndroidManifest.xml:10:22-78
+31    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+31-->[:eagleeyes-release-1.7:] /Users/luguibin/.gradle/caches/transforms-3/4b5f702c2c16414e4e015a141b2f15f4/transformed/jetified-eagleeyes-release-1.7/AndroidManifest.xml:11:5-79
+31-->[:eagleeyes-release-1.7:] /Users/luguibin/.gradle/caches/transforms-3/4b5f702c2c16414e4e015a141b2f15f4/transformed/jetified-eagleeyes-release-1.7/AndroidManifest.xml:11:22-76
+32    <uses-permission android:name="android.permission.BLUETOOTH" />
+32-->[:eagleeyes-release-1.7:] /Users/luguibin/.gradle/caches/transforms-3/4b5f702c2c16414e4e015a141b2f15f4/transformed/jetified-eagleeyes-release-1.7/AndroidManifest.xml:14:5-68
+32-->[:eagleeyes-release-1.7:] /Users/luguibin/.gradle/caches/transforms-3/4b5f702c2c16414e4e015a141b2f15f4/transformed/jetified-eagleeyes-release-1.7/AndroidManifest.xml:14:22-65
+33    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+33-->[:eagleeyes-release-1.7:] /Users/luguibin/.gradle/caches/transforms-3/4b5f702c2c16414e4e015a141b2f15f4/transformed/jetified-eagleeyes-release-1.7/AndroidManifest.xml:16:5-71
+33-->[:eagleeyes-release-1.7:] /Users/luguibin/.gradle/caches/transforms-3/4b5f702c2c16414e4e015a141b2f15f4/transformed/jetified-eagleeyes-release-1.7/AndroidManifest.xml:16:22-68
+34    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+34-->[:eagleeyes-release-1.7:] /Users/luguibin/.gradle/caches/transforms-3/4b5f702c2c16414e4e015a141b2f15f4/transformed/jetified-eagleeyes-release-1.7/AndroidManifest.xml:17:5-98
+34-->[:eagleeyes-release-1.7:] /Users/luguibin/.gradle/caches/transforms-3/4b5f702c2c16414e4e015a141b2f15f4/transformed/jetified-eagleeyes-release-1.7/AndroidManifest.xml:17:22-95
+35    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+35-->[com.android.installreferrer:installreferrer:1.1.2] /Users/luguibin/.gradle/caches/transforms-3/9fd42d7986dac23e35406ccd740b9a09/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+35-->[com.android.installreferrer:installreferrer:1.1.2] /Users/luguibin/.gradle/caches/transforms-3/9fd42d7986dac23e35406ccd740b9a09/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+36
+37    <application
+37-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:6:5-40:19
+38        android:name="com.F1M2ST.soexample.MainApplication"
+38-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:7:7-38
+39        android:allowBackup="false"
+39-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:12:7-34
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.6.0] /Users/luguibin/.gradle/caches/transforms-3/5c61d7afbc1bcd99cb491da6ba2ee6c1/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+41        android:icon="@mipmap/ic_launcher"
+41-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:10:7-41
+42        android:label="@string/app_name"
+42-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:9:7-39
+43        android:networkSecurityConfig="@xml/network_security_config"
+43-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:8:7-67
+44        android:requestLegacyExternalStorage="true"
+44-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:13:7-50
+45        android:roundIcon="@mipmap/ic_launcher_round"
+45-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:11:7-52
+46        android:theme="@style/AppTheme"
+46-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:15:7-38
+47        android:usesCleartextTraffic="true" >
+47-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:14:7-42
+48        <activity
+48-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:16:7-27:18
+49            android:name="com.F1M2ST.soexample.MainActivity"
+49-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:17:9-37
+50            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+50-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:19:9-118
+51            android:exported="true"
+51-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:22:9-32
+52            android:label="@string/app_name"
+52-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:18:9-41
+53            android:launchMode="singleTask"
+53-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:20:9-40
+54            android:windowSoftInputMode="adjustResize" >
+54-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:21:9-51
+55            <intent-filter>
+55-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:23:9-26:25
+56                <action android:name="android.intent.action.MAIN" />
+56-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:24:13-65
+56-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:24:21-62
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:25:13-73
+58-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:25:23-70
+59            </intent-filter>
+60        </activity>
+61
+62        <meta-data
+62-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:29:9-32:21
+63            android:name="UMENG_APPKEY"
+63-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:30:13-40
+64            android:value="6391a5e738f644547e2cfb30" >
+64-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:31:13-53
+65        </meta-data>
+66        <meta-data
+66-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:35:9-38:21
+67            android:name="UMENG_MESSAGE_SECRET"
+67-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:36:13-48
+68            android:value="a5948b3eb2b256620a49eb320f46e510" >
+68-->/Users/luguibin/Desktop/ST/F1-M2-APP-ST/android/app/src/main/AndroidManifest.xml:37:13-61
+69        </meta-data>
+70
+71        <service
+71-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:18:9-28:19
+72            android:name="com.taobao.accs.ChannelService"
+72-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:19:13-58
+73            android:exported="true"
+73-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:20:13-36
+74            android:process=":channel" >
+74-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:21:13-39
+75            <intent-filter>
+75-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:22:13-24:29
+76                <action android:name="com.taobao.accs.intent.action.SERVICE" />
+76-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:23:17-80
+76-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:23:25-77
+77            </intent-filter>
+78            <intent-filter>
+78-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:25:13-27:29
+79                <action android:name="com.taobao.accs.intent.action.ELECTION" />
+79-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:26:17-81
+79-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:26:25-78
+80            </intent-filter>
+81        </service>
+82        <service
+82-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:29:9-35:19
+83            android:name="com.taobao.accs.data.MsgDistributeService"
+83-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:30:13-69
+84            android:exported="true" >
+84-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:31:13-36
+85            <intent-filter>
+85-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:32:13-34:29
+86                <action android:name="com.taobao.accs.intent.action.RECEIVE" />
+86-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:33:17-80
+86-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:33:25-77
+87            </intent-filter>
+88        </service>
+89
+90        <receiver
+90-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:37:9-55:20
+91            android:name="com.taobao.accs.EventReceiver"
+91-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:38:13-57
+92            android:exported="true"
+92-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:39:13-36
+93            android:process=":channel" >
+93-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:40:13-39
+94            <intent-filter>
+94-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:41:13-43:29
+95                <action android:name="android.intent.action.BOOT_COMPLETED" />
+95-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:42:17-79
+95-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:42:25-76
+96            </intent-filter>
+97            <intent-filter>
+97-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:44:13-46:29
+98                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+98-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:45:17-79
+98-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:45:25-76
+99            </intent-filter>
+100            <intent-filter>
+100-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:47:13-49:29
+101                <action android:name="android.intent.action.USER_PRESENT" />
+101-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:48:17-77
+101-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:48:25-74
+102            </intent-filter>
+103            <intent-filter>
+103-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:50:13-54:29
+104                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+104-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:51:17-80
+104-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:51:25-77
+105
+106                <data android:scheme="package" />
+106-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:53:17-50
+106-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:53:23-47
+107            </intent-filter>
+108        </receiver>
+109        <receiver
+109-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:56:9-66:20
+110            android:name="com.taobao.accs.ServiceReceiver"
+110-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:57:13-59
+111            android:exported="true"
+111-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:58:13-36
+112            android:process=":channel" >
+112-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:59:13-39
+113            <intent-filter>
+113-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:60:13-62:29
+114                <action android:name="com.taobao.accs.intent.action.COMMAND" />
+114-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:61:17-80
+114-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:61:25-77
+115            </intent-filter>
+116            <intent-filter>
+116-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:63:13-65:29
+117                <action android:name="com.taobao.accs.intent.action.START_FROM_AGOO" />
+117-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:64:17-88
+117-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:64:25-85
+118            </intent-filter>
+119        </receiver>
+120
+121        <service
+121-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:68:9-72:42
+122            android:name="com.taobao.accs.internal.AccsJobService"
+122-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:69:13-67
+123            android:exported="false"
+123-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:70:13-37
+124            android:permission="android.permission.BIND_JOB_SERVICE"
+124-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:71:13-69
+125            android:process=":channel" />
+125-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:72:13-39
+126        <service
+126-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:73:9-76:42
+127            android:name="com.taobao.accs.ChannelService$KernelService"
+127-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:74:13-72
+128            android:exported="false"
+128-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:75:13-37
+129            android:process=":channel" />
+129-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:76:13-39
+130        <service
+130-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:77:9-83:19
+131            android:name="org.android.agoo.accs.AgooService"
+131-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:78:13-61
+132            android:exported="true" >
+132-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:79:13-36
+133            <intent-filter>
+133-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:32:13-34:29
+134                <action android:name="com.taobao.accs.intent.action.RECEIVE" />
+134-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:33:17-80
+134-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:33:25-77
+135            </intent-filter>
+136        </service>
+137        <service
+137-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:84:9-91:19
+138            android:name="com.umeng.message.UmengIntentService"
+138-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:85:13-64
+139            android:exported="true"
+139-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:86:13-36
+140            android:process=":channel" >
+140-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:87:13-39
+141            <intent-filter>
+141-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:88:13-90:29
+142                <action android:name="org.agoo.android.intent.action.RECEIVE" />
+142-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:89:17-81
+142-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:89:25-78
+143            </intent-filter>
+144        </service>
+145        <service
+145-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:92:9-99:19
+146            android:name="com.umeng.message.XiaomiIntentService"
+146-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:93:13-65
+147            android:exported="true"
+147-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:94:13-36
+148            android:process=":channel" >
+148-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:95:13-39
+149            <intent-filter>
+149-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:88:13-90:29
+150                <action android:name="org.agoo.android.intent.action.RECEIVE" />
+150-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:89:17-81
+150-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:89:25-78
+151            </intent-filter>
+152        </service>
+153
+154        <receiver
+154-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:101:9-113:20
+155            android:name="com.taobao.agoo.AgooCommondReceiver"
+155-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:102:13-63
+156            android:exported="true"
+156-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:103:13-36
+157            android:process=":channel" >
+157-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:104:13-39
+158            <intent-filter>
+158-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:105:13-107:29
+159                <action android:name="com.F1M2ST.soexample.intent.action.COMMAND" />
+159-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:106:17-81
+159-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:106:25-78
+160            </intent-filter>
+161            <intent-filter>
+161-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:50:13-54:29
+162                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+162-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:51:17-80
+162-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:51:25-77
+163
+164                <data android:scheme="package" />
+164-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:53:17-50
+164-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:53:23-47
+165            </intent-filter>
+166        </receiver>
+167
+168        <service
+168-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:115:9-122:19
+169            android:name="com.umeng.message.UmengMessageIntentReceiverService"
+169-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:116:13-79
+170            android:exported="true"
+170-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:117:13-36
+171            android:process=":channel" >
+171-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:118:13-39
+172            <intent-filter>
+172-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:119:13-121:29
+173                <action android:name="org.android.agoo.client.MessageReceiverService" />
+173-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:120:17-89
+173-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:120:25-86
+174            </intent-filter>
+175        </service>
+176
+177        <receiver
+177-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:124:9-126:40
+178            android:name="com.umeng.message.NotificationProxyBroadcastReceiver"
+178-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:125:13-80
+179            android:exported="false" />
+179-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:126:13-37
+180
+181        <service
+181-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:128:9-147:19
+182            android:name="com.umeng.message.UmengMessageCallbackHandlerService"
+182-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:129:13-80
+183            android:exported="false"
+183-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:130:13-37
+184            android:permission="android.permission.BIND_JOB_SERVICE" >
+184-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:131:13-69
+185            <intent-filter>
+185-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:132:13-134:29
+186                <action android:name="com.umeng.messge.registercallback.action" />
+186-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:133:17-83
+186-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:133:25-80
+187            </intent-filter>
+188            <intent-filter>
+188-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:135:13-137:29
+189                <action android:name="com.umeng.message.enablecallback.action" />
+189-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:136:17-82
+189-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:136:25-79
+190            </intent-filter>
+191            <intent-filter>
+191-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:138:13-140:29
+192                <action android:name="com.umeng.message.disablecallback.action" />
+192-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:139:17-83
+192-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:139:25-80
+193            </intent-filter>
+194            <intent-filter>
+194-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:141:13-143:29
+195                <action android:name="com.umeng.message.message.handler.action" />
+195-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:142:17-83
+195-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:142:25-80
+196            </intent-filter>
+197            <intent-filter>
+197-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:144:13-146:29
+198                <action android:name="com.umeng.message.message.sendmessage.action" />
+198-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:145:17-87
+198-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:145:25-84
+199            </intent-filter>
+200        </service>
+201        <service
+201-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:148:9-151:72
+202            android:name="com.umeng.message.UmengDownloadResourceService"
+202-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:149:13-74
+203            android:exported="false"
+203-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:150:13-37
+204            android:permission="android.permission.BIND_JOB_SERVICE" />
+204-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:151:13-69
+205
+206        <provider
+206-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:153:9-158:20
+207            android:name="com.umeng.message.provider.MessageProvider"
+207-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:154:13-70
+208            android:authorities="com.F1M2ST.soexample.umeng.message"
+208-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:155:13-65
+209            android:exported="false" >
+209-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:156:13-37
+210            <grant-uri-permission android:pathPattern=".*" />
+210-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:157:13-62
+210-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:157:35-59
+211        </provider>
+212
+213        <activity
+213-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:160:9-168:58
+214            android:name="com.umeng.message.notify.UPushMessageNotifyActivity"
+214-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:161:13-79
+215            android:excludeFromRecents="true"
+215-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:162:13-46
+216            android:exported="false"
+216-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:163:13-37
+217            android:launchMode="singleTask"
+217-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:164:13-44
+218            android:noHistory="true"
+218-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:165:13-37
+219            android:screenOrientation="behind"
+219-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:166:13-47
+220            android:taskAffinity="com.F1M2ST.soexample.umeng.push"
+220-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:167:13-63
+221            android:theme="@style/UPushNotifyActivity" />
+221-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:168:13-55
+222
+223        <activity-alias
+223-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:170:9-178:26
+224            android:name="com.umeng.message.UMessageNotifyActivity"
+224-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:171:13-68
+225            android:exported="true"
+225-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:172:13-36
+226            android:targetActivity="com.umeng.message.notify.UPushMessageNotifyActivity"
+226-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:173:13-89
+227            android:taskAffinity="com.F1M2ST.soexample.umeng.push" >
+227-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:174:13-63
+228            <intent-filter>
+228-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:175:13-177:29
+229                <action android:name="com.umeng.message.action.notify" />
+229-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:176:17-74
+229-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:176:25-71
+230            </intent-filter>
+231        </activity-alias>
+232
+233        <activity
+233-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:180:9-188:58
+234            android:name="com.umeng.message.UPushBoardActivity"
+234-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:181:13-64
+235            android:excludeFromRecents="true"
+235-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:182:13-46
+236            android:exported="false"
+236-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:183:13-37
+237            android:launchMode="singleTask"
+237-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:184:13-44
+238            android:noHistory="true"
+238-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:185:13-37
+239            android:screenOrientation="behind"
+239-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:186:13-47
+240            android:taskAffinity="com.F1M2ST.soexample.umeng.banner"
+240-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:187:13-65
+241            android:theme="@style/UPushNotifyActivity" />
+241-->[com.umeng.umsdk:push:6.4.4] /Users/luguibin/.gradle/caches/transforms-3/3a47858382850367ec21e54f1c82493c/transformed/jetified-push-6.4.4/AndroidManifest.xml:188:13-55
+242        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+242-->[:react-native-code-push] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-86
+242-->[:react-native-code-push] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:19-83
+243
+244        <provider
+244-->[:react-native-image-picker] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+245            android:name="com.imagepicker.ImagePickerProvider"
+245-->[:react-native-image-picker] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-63
+246            android:authorities="com.F1M2ST.soexample.imagepickerprovider"
+246-->[:react-native-image-picker] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-71
+247            android:exported="false"
+247-->[:react-native-image-picker] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+248            android:grantUriPermissions="true" >
+248-->[:react-native-image-picker] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+249            <meta-data
+249-->[:react-native-image-picker] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:70
+250                android:name="android.support.FILE_PROVIDER_PATHS"
+250-->[:react-native-image-picker] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+251                android:resource="@xml/imagepicker_provider_paths" />
+251-->[:react-native-image-picker] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+252        </provider>
+253        <provider
+253-->[:react-native-share] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+254            android:name="cl.json.RNShareFileProvider"
+254-->[:react-native-share] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-55
+255            android:authorities="com.F1M2ST.soexample.rnshare.fileprovider"
+255-->[:react-native-share] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-72
+256            android:exported="false"
+256-->[:react-native-share] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+257            android:grantUriPermissions="true" >
+257-->[:react-native-share] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+258            <meta-data
+258-->[:react-native-image-picker] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:70
+259                android:name="android.support.FILE_PROVIDER_PATHS"
+259-->[:react-native-image-picker] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+260                android:resource="@xml/share_download_paths" />
+260-->[:react-native-image-picker] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+261        </provider>
+262        <provider
+262-->[:react-native-webview] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+263            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+263-->[:react-native-webview] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-83
+264            android:authorities="com.F1M2ST.soexample.fileprovider"
+264-->[:react-native-webview] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-64
+265            android:exported="false"
+265-->[:react-native-webview] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+266            android:grantUriPermissions="true" >
+266-->[:react-native-webview] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+267            <meta-data
+267-->[:react-native-image-picker] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:70
+268                android:name="android.support.FILE_PROVIDER_PATHS"
+268-->[:react-native-image-picker] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+269                android:resource="@xml/file_provider_paths" />
+269-->[:react-native-image-picker] /Users/luguibin/Desktop/ST/F1-M2-APP-ST/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+270        </provider> <!-- Suppress warning about unrestricted access to this receiver this is need to check which app store installed the app -->
+271        <receiver
+271-->[pro.piwik:sdk-framework-android:1.1.2] /Users/luguibin/.gradle/caches/transforms-3/c76267376da58e8c2b2668f3890b5bd4/transformed/jetified-sdk-framework-android-1.1.2/AndroidManifest.xml:18:9-25:20
+272            android:name="pro.piwik.sdk.extra.InstallReferrerReceiver"
+272-->[pro.piwik:sdk-framework-android:1.1.2] /Users/luguibin/.gradle/caches/transforms-3/c76267376da58e8c2b2668f3890b5bd4/transformed/jetified-sdk-framework-android-1.1.2/AndroidManifest.xml:19:13-71
+273            android:exported="true" >
+273-->[pro.piwik:sdk-framework-android:1.1.2] /Users/luguibin/.gradle/caches/transforms-3/c76267376da58e8c2b2668f3890b5bd4/transformed/jetified-sdk-framework-android-1.1.2/AndroidManifest.xml:20:13-36
+274            <intent-filter>
+274-->[pro.piwik:sdk-framework-android:1.1.2] /Users/luguibin/.gradle/caches/transforms-3/c76267376da58e8c2b2668f3890b5bd4/transformed/jetified-sdk-framework-android-1.1.2/AndroidManifest.xml:22:13-24:29
+275                <action android:name="com.android.vending.INSTALL_REFERRER" />
+275-->[pro.piwik:sdk-framework-android:1.1.2] /Users/luguibin/.gradle/caches/transforms-3/c76267376da58e8c2b2668f3890b5bd4/transformed/jetified-sdk-framework-android-1.1.2/AndroidManifest.xml:23:17-79
+275-->[pro.piwik:sdk-framework-android:1.1.2] /Users/luguibin/.gradle/caches/transforms-3/c76267376da58e8c2b2668f3890b5bd4/transformed/jetified-sdk-framework-android-1.1.2/AndroidManifest.xml:23:25-76
+276            </intent-filter>
+277        </receiver>
+278
+279        <meta-data
+279-->[com.google.android.gms:play-services-basement:11.0.4] /Users/luguibin/.gradle/caches/transforms-3/4a08f6692bcca93f7443650ca247ffa7/transformed/jetified-play-services-basement-11.0.4/AndroidManifest.xml:20:9-121
+280            android:name="com.google.android.gms.version"
+280-->[com.google.android.gms:play-services-basement:11.0.4] /Users/luguibin/.gradle/caches/transforms-3/4a08f6692bcca93f7443650ca247ffa7/transformed/jetified-play-services-basement-11.0.4/AndroidManifest.xml:20:20-65
+281            android:value="@integer/google_play_services_version" />
+281-->[com.google.android.gms:play-services-basement:11.0.4] /Users/luguibin/.gradle/caches/transforms-3/4a08f6692bcca93f7443650ca247ffa7/transformed/jetified-play-services-basement-11.0.4/AndroidManifest.xml:20:66-119
+282
+283        <activity
+283-->[androidx.biometric:biometric:1.0.1] /Users/luguibin/.gradle/caches/transforms-3/3ebf3e825039fe11136d52ac63adcc9b/transformed/biometric-1.0.1/AndroidManifest.xml:28:9-31:67
+284            android:name="androidx.biometric.DeviceCredentialHandlerActivity"
+284-->[androidx.biometric:biometric:1.0.1] /Users/luguibin/.gradle/caches/transforms-3/3ebf3e825039fe11136d52ac63adcc9b/transformed/biometric-1.0.1/AndroidManifest.xml:29:13-78
+285            android:exported="true"
+285-->[androidx.biometric:biometric:1.0.1] /Users/luguibin/.gradle/caches/transforms-3/3ebf3e825039fe11136d52ac63adcc9b/transformed/biometric-1.0.1/AndroidManifest.xml:30:13-36
+286            android:theme="@style/DeviceCredentialHandlerTheme" />
+286-->[androidx.biometric:biometric:1.0.1] /Users/luguibin/.gradle/caches/transforms-3/3ebf3e825039fe11136d52ac63adcc9b/transformed/biometric-1.0.1/AndroidManifest.xml:31:13-64
+287
+288        <meta-data
+288-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/luguibin/.gradle/caches/transforms-3/34964e0a161d03da22f5958ad8b1387b/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+289            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+289-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/luguibin/.gradle/caches/transforms-3/34964e0a161d03da22f5958ad8b1387b/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+290            android:value="GlideModule" />
+290-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/luguibin/.gradle/caches/transforms-3/34964e0a161d03da22f5958ad8b1387b/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+291    </application>
+292
+293</manifest>

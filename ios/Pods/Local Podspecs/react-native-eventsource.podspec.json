@@ -1,0 +1,24 @@
+{
+  "name": "react-native-eventsource",
+  "summary": "@gpsgate/react-native-eventsource",
+  "version": "0.0.2",
+  "authors": {
+    "name": "João Ribeiro",
+    "email": "jonnybgod@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/gpsgate/react-native-eventsource",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/gpsgate/react-native-eventsource.git",
+    "tag": "v0.0.2"
+  },
+  "source_files": "ios/**/*.{h,m}",
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}

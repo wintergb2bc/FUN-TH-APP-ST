@@ -1,0 +1,8 @@
+# Please add these rules to your existing keep rules in order to suppress warnings.
+# This is generated automatically by the Android Gradle plugin.-dontwarn com.alibaba.sdk.android.tbrest.SendService
+-dontwarn com.samsung.android.fingerprint.FingerprintEvent
+-dontwarn com.samsung.android.fingerprint.FingerprintIdentifyDialog$FingerprintListener
+-dontwarn com.samsung.android.fingerprint.FingerprintManager$EnrollFinishListener
+-dontwarn com.samsung.android.fingerprint.FingerprintManager
+-dontwarn com.samsung.android.fingerprint.IFingerprintClient$Stub
+-dontwarn com.samsung.android.fingerprint.IFingerprintClient

@@ -1,0 +1,6 @@
+module Pods_FedevProject {
+  umbrella header "Pods-FedevProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
